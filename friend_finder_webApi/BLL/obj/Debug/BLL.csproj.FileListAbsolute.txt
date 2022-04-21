@@ -1,0 +1,46 @@
+E:\11th semester\.NET\final\project\friend_finder_webApi\BLL\bin\Debug\BLL.dll
+E:\11th semester\.NET\final\project\friend_finder_webApi\BLL\bin\Debug\BLL.pdb
+E:\11th semester\.NET\final\project\friend_finder_webApi\BLL\bin\Debug\AutoMapper.dll
+E:\11th semester\.NET\final\project\friend_finder_webApi\BLL\bin\Debug\DAL.dll
+E:\11th semester\.NET\final\project\friend_finder_webApi\BLL\bin\Debug\EntityFramework.dll
+E:\11th semester\.NET\final\project\friend_finder_webApi\BLL\bin\Debug\DAL.pdb
+E:\11th semester\.NET\final\project\friend_finder_webApi\BLL\bin\Debug\DAL.dll.config
+E:\11th semester\.NET\final\project\friend_finder_webApi\BLL\bin\Debug\AutoMapper.xml
+E:\11th semester\.NET\final\project\friend_finder_webApi\BLL\bin\Debug\EntityFramework.xml
+E:\11th semester\.NET\final\project\friend_finder_webApi\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+E:\11th semester\.NET\final\project\friend_finder_webApi\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+E:\11th semester\.NET\final\project\friend_finder_webApi\BLL\obj\Debug\BLL.csproj.CopyComplete
+E:\11th semester\.NET\final\project\friend_finder_webApi\BLL\obj\Debug\BLL.dll
+E:\11th semester\.NET\final\project\friend_finder_webApi\BLL\obj\Debug\BLL.pdb
+E:\11th semester\.NET\Final project\friend_finder_webApi\BLL\bin\Debug\BLL.dll
+E:\11th semester\.NET\Final project\friend_finder_webApi\BLL\bin\Debug\BLL.pdb
+E:\11th semester\.NET\Final project\friend_finder_webApi\BLL\bin\Debug\AutoMapper.dll
+E:\11th semester\.NET\Final project\friend_finder_webApi\BLL\bin\Debug\BEL.dll
+E:\11th semester\.NET\Final project\friend_finder_webApi\BLL\bin\Debug\DAL.dll
+E:\11th semester\.NET\Final project\friend_finder_webApi\BLL\bin\Debug\EntityFramework.dll
+E:\11th semester\.NET\Final project\friend_finder_webApi\BLL\bin\Debug\BEL.pdb
+E:\11th semester\.NET\Final project\friend_finder_webApi\BLL\bin\Debug\DAL.pdb
+E:\11th semester\.NET\Final project\friend_finder_webApi\BLL\bin\Debug\DAL.dll.config
+E:\11th semester\.NET\Final project\friend_finder_webApi\BLL\bin\Debug\AutoMapper.xml
+E:\11th semester\.NET\Final project\friend_finder_webApi\BLL\bin\Debug\EntityFramework.xml
+E:\11th semester\.NET\Final project\friend_finder_webApi\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+E:\11th semester\.NET\Final project\friend_finder_webApi\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+E:\11th semester\.NET\Final project\friend_finder_webApi\BLL\obj\Debug\BLL.csproj.CopyComplete
+E:\11th semester\.NET\Final project\friend_finder_webApi\BLL\obj\Debug\BLL.dll
+E:\11th semester\.NET\Final project\friend_finder_webApi\BLL\obj\Debug\BLL.pdb
+C:\Users\Tafsir\Desktop\FINAL_PROJECT_FriendFinder\friend_finder_webApi\BLL\bin\Debug\BLL.dll
+C:\Users\Tafsir\Desktop\FINAL_PROJECT_FriendFinder\friend_finder_webApi\BLL\bin\Debug\BLL.pdb
+C:\Users\Tafsir\Desktop\FINAL_PROJECT_FriendFinder\friend_finder_webApi\BLL\bin\Debug\AutoMapper.dll
+C:\Users\Tafsir\Desktop\FINAL_PROJECT_FriendFinder\friend_finder_webApi\BLL\bin\Debug\BEL.dll
+C:\Users\Tafsir\Desktop\FINAL_PROJECT_FriendFinder\friend_finder_webApi\BLL\bin\Debug\DAL.dll
+C:\Users\Tafsir\Desktop\FINAL_PROJECT_FriendFinder\friend_finder_webApi\BLL\bin\Debug\EntityFramework.dll
+C:\Users\Tafsir\Desktop\FINAL_PROJECT_FriendFinder\friend_finder_webApi\BLL\bin\Debug\BEL.pdb
+C:\Users\Tafsir\Desktop\FINAL_PROJECT_FriendFinder\friend_finder_webApi\BLL\bin\Debug\DAL.pdb
+C:\Users\Tafsir\Desktop\FINAL_PROJECT_FriendFinder\friend_finder_webApi\BLL\bin\Debug\DAL.dll.config
+C:\Users\Tafsir\Desktop\FINAL_PROJECT_FriendFinder\friend_finder_webApi\BLL\bin\Debug\AutoMapper.xml
+C:\Users\Tafsir\Desktop\FINAL_PROJECT_FriendFinder\friend_finder_webApi\BLL\bin\Debug\EntityFramework.xml
+C:\Users\Tafsir\Desktop\FINAL_PROJECT_FriendFinder\friend_finder_webApi\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\Tafsir\Desktop\FINAL_PROJECT_FriendFinder\friend_finder_webApi\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Tafsir\Desktop\FINAL_PROJECT_FriendFinder\friend_finder_webApi\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\Tafsir\Desktop\FINAL_PROJECT_FriendFinder\friend_finder_webApi\BLL\obj\Debug\BLL.dll
+C:\Users\Tafsir\Desktop\FINAL_PROJECT_FriendFinder\friend_finder_webApi\BLL\obj\Debug\BLL.pdb

@@ -1,0 +1,12 @@
+E:\11th semester\.NET\Final project\friend_finder_webApi\BEL\bin\Debug\BEL.dll
+E:\11th semester\.NET\Final project\friend_finder_webApi\BEL\bin\Debug\BEL.pdb
+E:\11th semester\.NET\Final project\friend_finder_webApi\BEL\obj\Debug\BEL.csproj.AssemblyReference.cache
+E:\11th semester\.NET\Final project\friend_finder_webApi\BEL\obj\Debug\BEL.csproj.CoreCompileInputs.cache
+E:\11th semester\.NET\Final project\friend_finder_webApi\BEL\obj\Debug\BEL.dll
+E:\11th semester\.NET\Final project\friend_finder_webApi\BEL\obj\Debug\BEL.pdb
+C:\Users\Tafsir\Desktop\FINAL_PROJECT_FriendFinder\friend_finder_webApi\BEL\bin\Debug\BEL.dll
+C:\Users\Tafsir\Desktop\FINAL_PROJECT_FriendFinder\friend_finder_webApi\BEL\bin\Debug\BEL.pdb
+C:\Users\Tafsir\Desktop\FINAL_PROJECT_FriendFinder\friend_finder_webApi\BEL\obj\Debug\BEL.csproj.AssemblyReference.cache
+C:\Users\Tafsir\Desktop\FINAL_PROJECT_FriendFinder\friend_finder_webApi\BEL\obj\Debug\BEL.csproj.CoreCompileInputs.cache
+C:\Users\Tafsir\Desktop\FINAL_PROJECT_FriendFinder\friend_finder_webApi\BEL\obj\Debug\BEL.dll
+C:\Users\Tafsir\Desktop\FINAL_PROJECT_FriendFinder\friend_finder_webApi\BEL\obj\Debug\BEL.pdb

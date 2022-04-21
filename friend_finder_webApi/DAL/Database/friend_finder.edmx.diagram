@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a12230dcb6684baa9011aded411ba4ca" Name="Diagram1">
+        <EntityTypeShape EntityType="Friend_Finder_Social_MediaModel.Admin" Width="1.5" PointX="3" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Friend_Finder_Social_MediaModel.Applicant" Width="1.5" PointX="5.25" PointY="20.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Friend_Finder_Social_MediaModel.Category" Width="1.5" PointX="1.5" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Friend_Finder_Social_MediaModel.Comment" Width="1.5" PointX="5.25" PointY="23.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Friend_Finder_Social_MediaModel.Employee" Width="1.5" PointX="3" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Friend_Finder_Social_MediaModel.Following" Width="1.5" PointX="3" PointY="19.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Friend_Finder_Social_MediaModel.Follow" Width="1.5" PointX="3" PointY="21.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Friend_Finder_Social_MediaModel.Job" Width="1.5" PointX="3" PointY="24.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Friend_Finder_Social_MediaModel.Message" Width="1.5" PointX="3" PointY="28" IsExpanded="true" />
+        <EntityTypeShape EntityType="Friend_Finder_Social_MediaModel.Post" Width="1.5" PointX="3" PointY="30.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Friend_Finder_Social_MediaModel.Product" Width="1.5" PointX="3.75" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Friend_Finder_Social_MediaModel.React" Width="1.5" PointX="8.25" PointY="23.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Friend_Finder_Social_MediaModel.Reply" Width="1.5" PointX="8.5" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Friend_Finder_Social_MediaModel.Request" Width="1.5" PointX="3" PointY="34.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Friend_Finder_Social_MediaModel.ShoppingCart" Width="1.5" PointX="6" PointY="17.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Friend_Finder_Social_MediaModel.User" Width="1.5" PointX="0.75" PointY="16" IsExpanded="true" />
+        <AssociationConnector Association="Friend_Finder_Social_MediaModel.FK_Admins_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="Friend_Finder_Social_MediaModel.FK_Applicants_Jobs" ManuallyRouted="false" />
+        <AssociationConnector Association="Friend_Finder_Social_MediaModel.FK_Applicants_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="Friend_Finder_Social_MediaModel.FK_Products_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="Friend_Finder_Social_MediaModel.FK_Comments_Posts" ManuallyRouted="false" />
+        <AssociationConnector Association="Friend_Finder_Social_MediaModel.FK_Comments_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="Friend_Finder_Social_MediaModel.FK_Replies_Comments" ManuallyRouted="false" />
+        <AssociationConnector Association="Friend_Finder_Social_MediaModel.FK_Employees_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="Friend_Finder_Social_MediaModel.FK_Followings_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="Friend_Finder_Social_MediaModel.FK_Followings_Users1" ManuallyRouted="false" />
+        <AssociationConnector Association="Friend_Finder_Social_MediaModel.FK_Follows_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="Friend_Finder_Social_MediaModel.FK_Follows_Users1" ManuallyRouted="false" />
+        <AssociationConnector Association="Friend_Finder_Social_MediaModel.FK_Jobs_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="Friend_Finder_Social_MediaModel.FK_Messages_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="Friend_Finder_Social_MediaModel.FK_Messages_Users1" ManuallyRouted="false" />
+        <AssociationConnector Association="Friend_Finder_Social_MediaModel.FK_Posts_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="Friend_Finder_Social_MediaModel.FK_Reacts_Posts" ManuallyRouted="false" />
+        <AssociationConnector Association="Friend_Finder_Social_MediaModel.FK_ShoopingCarts_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="Friend_Finder_Social_MediaModel.FK_Reacts_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="Friend_Finder_Social_MediaModel.FK_Replies_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="Friend_Finder_Social_MediaModel.FK_Requests_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="Friend_Finder_Social_MediaModel.FK_Requests_Users1" ManuallyRouted="false" />
+        <AssociationConnector Association="Friend_Finder_Social_MediaModel.FK_ShoopingCarts_Users" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="Friend_Finder_Social_MediaModel.OrderHead" Width="1.5" PointX="8.25" PointY="16.375" />
+        <AssociationConnector Association="Friend_Finder_Social_MediaModel.FK_OrderHeads_ShoppingCarts" />
+        <AssociationConnector Association="Friend_Finder_Social_MediaModel.FK_OrderHeads_Users" />
+        <EntityTypeShape EntityType="Friend_Finder_Social_MediaModel.OrderDetail" Width="1.5" PointX="10.5" PointY="16.875" />
+        <AssociationConnector Association="Friend_Finder_Social_MediaModel.FK_OrderDetails_OrderHeads" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

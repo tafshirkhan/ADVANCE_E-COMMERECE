@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4AAFED3D-D325-49CA-986F-F8699F299FC7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DAL</RootNamespace>
+    <AssemblyName>DAL</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="DataAccessFactory.cs" />
+    <Compile Include="Database\Admin.cs">
+      <DependentUpon>friend_finder.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Database\Applicant.cs">
+      <DependentUpon>friend_finder.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Database\Category.cs">
+      <DependentUpon>friend_finder.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Database\Comment.cs">
+      <DependentUpon>friend_finder.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Database\Employee.cs">
+      <DependentUpon>friend_finder.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Database\Follow.cs">
+      <DependentUpon>friend_finder.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Database\Following.cs">
+      <DependentUpon>friend_finder.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Database\friend_finder.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>friend_finder.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Database\friend_finder.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>friend_finder.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Database\friend_finder.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>friend_finder.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Database\Job.cs">
+      <DependentUpon>friend_finder.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Database\Message.cs">
+      <DependentUpon>friend_finder.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Database\OrderDetail.cs">
+      <DependentUpon>friend_finder.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Database\OrderHead.cs">
+      <DependentUpon>friend_finder.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Database\Post.cs">
+      <DependentUpon>friend_finder.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Database\Product.cs">
+      <DependentUpon>friend_finder.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Database\React.cs">
+      <DependentUpon>friend_finder.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Database\Reply.cs">
+      <DependentUpon>friend_finder.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Database\Request.cs">
+      <DependentUpon>friend_finder.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Database\ShoppingCart.cs">
+      <DependentUpon>friend_finder.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Database\User.cs">
+      <DependentUpon>friend_finder.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Interface\BusinessInterface\IBusinessPostRepository.cs" />
+    <Compile Include="Interface\BusinessInterface\IBusinessUserCommentRepository.cs" />
+    <Compile Include="Interface\BusinessInterface\IBusinessUserRepository.cs" />
+    <Compile Include="Interface\BusinessInterface\ICategoryRepository.cs" />
+    <Compile Include="Interface\BusinessInterface\IOrderHeadRepository.cs" />
+    <Compile Include="Interface\BusinessInterface\IOrderRepository.cs" />
+    <Compile Include="Interface\BusinessInterface\IShoppingCartRepository.cs" />
+    <Compile Include="Interface\IAdminRepository.cs" />
+    <Compile Include="Interface\IApplicantRepository.cs" />
+    <Compile Include="Interface\ICmntReplyRepository.cs" />
+    <Compile Include="Interface\IEmpRepository.cs" />
+    <Compile Include="Interface\IJobRepository.cs" />
+    <Compile Include="Interface\IPostRepository.cs" />
+    <Compile Include="Interface\IReactRepository.cs" />
+    <Compile Include="Interface\IReportRepositiry.cs" />
+    <Compile Include="Interface\ISearchRepository.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repo\AdminRepo.cs" />
+    <Compile Include="Repo\ApplicantRepo.cs" />
+    <Compile Include="Repo\BusinessRepo\BusinessCommentRepo.cs" />
+    <Compile Include="Repo\BusinessRepo\BusinessReplyRepo.cs" />
+    <Compile Include="Repo\BusinessRepo\BusinessUserPostRepo.cs" />
+    <Compile Include="Repo\BusinessRepo\BusinessUserRepo.cs" />
+    <Compile Include="Repo\BusinessRepo\CategoryRepo.cs" />
+    <Compile Include="Repo\BusinessRepo\OrderHeadRepo.cs" />
+    <Compile Include="Repo\BusinessRepo\OrderRepo.cs" />
+    <Compile Include="Repo\BusinessRepo\ProductRepo.cs" />
+    <Compile Include="Repo\BusinessRepo\ShoppingCartRepo.cs" />
+    <Compile Include="Repo\CommentRepo.cs" />
+    <Compile Include="Repo\EmployeeRepo.cs" />
+    <Compile Include="Repo\IAdminRepository.cs" />
+    <Compile Include="Repo\JobRepo.cs" />
+    <Compile Include="Repo\PostRepo.cs" />
+    <Compile Include="Repo\ReactRepo.cs" />
+    <Compile Include="Repo\ReplyRepo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <EntityDeploy Include="Database\friend_finder.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>friend_finder.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Database\friend_finder.edmx.diagram">
+      <DependentUpon>friend_finder.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\Employee\" />
+    <Folder Include="ProductImage\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Database\friend_finder.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>friend_finder.edmx</DependentUpon>
+      <LastGenOutput>friend_finder.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Database\friend_finder.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>friend_finder.edmx</DependentUpon>
+      <LastGenOutput>friend_finder.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
